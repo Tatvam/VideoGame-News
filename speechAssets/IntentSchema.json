@@ -1,0 +1,40 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "video game news",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GameNewsIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is the latest game news",
+                        "tell me recent game news",
+                        "tell me latest game news",
+                        "what is the recent game news"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
